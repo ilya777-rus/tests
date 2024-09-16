@@ -61,3 +61,5 @@ class BasketPage(HomePage):
         element_text_complete = self.is_element_present(BasketPageLocators.TEXT_COMPLETE)
         assert element_text_complete, "Текст того что покупка завершена не обнаружен!"
         self.should_be_go_to_basket()
+        assert self.is_disappeared(BasketPageLocators.ITEM_BASKET), "Товар остался в корзине!"
+        log_message("Покупка завершена успешно. ОК.")
