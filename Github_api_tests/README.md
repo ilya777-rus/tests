@@ -14,7 +14,7 @@
 
     
     venv\Scripts\activate
-1)На macOS/Linux:
+2)На macOS/Linux:
 
     
     source venv/bin/activate
