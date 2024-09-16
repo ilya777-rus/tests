@@ -1,0 +1,12 @@
+.idea
+
+Github_api_tests/.env
+Github_api_tests/venv
+Github_api_tests/.idea
+Github_api_tests/__pycache__
+
+UI_tests/.idea
+UI_tests/venv
+UI_tests/.pytest_cache
+UI_tests/__pycache__
+UI_tests/pages/__pycache__
