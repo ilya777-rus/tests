@@ -61,5 +61,4 @@ def test_github_repository_operations():
     print('Репозиторий удален')
 
 if __name__ == '__main__':
-    unittest.main()
-    # test_github_repository_operations()
+    test_github_repository_operations()
